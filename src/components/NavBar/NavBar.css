@@ -1,3 +1,6 @@
-.navbar-text-color {
-  color: white;
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+.logo-color {
+  color: white !important;
 }
