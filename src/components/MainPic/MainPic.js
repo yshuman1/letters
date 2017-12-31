@@ -5,6 +5,7 @@ const MainPic = props => {
   return (
     <div>
       <Jumbotron className="bg">
+        <img src={"../fawzi.jpg"} />
         <h1 className="display-3">Hello, world!</h1>
         <p className="lead">
           This is a simple hero unit, a simple Jumbotron-style component for
