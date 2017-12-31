@@ -1,3 +1,4 @@
-.pic {
-  width: 100% !important;
+.Jumbotron {
+  background-image: url("fawzi.jpg");
+  background-size: 100%;
 }
