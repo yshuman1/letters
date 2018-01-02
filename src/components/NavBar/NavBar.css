@@ -4,3 +4,9 @@
 .logo-color {
   color: white !important;
 }
+.navbar {
+  position: fixed !important;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}

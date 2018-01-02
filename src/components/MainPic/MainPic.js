@@ -1,25 +1,16 @@
 import React from "react";
-import { Jumbotron, Button } from "reactstrap";
+import "./MainPic.css";
+import { Button } from "reactstrap";
+import fawzi from "./fawzi.jpg";
 
 const MainPic = props => {
   return (
-    <div>
-      <Jumbotron className="bg">
-        <img src={"../fawzi.jpg"} />
-        <h1 className="display-3">Hello, world!</h1>
-        <p className="lead">
-          This is a simple hero unit, a simple Jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
-        <hr className="my-2" />
-        <p>
-          It uses utility classes for typgraphy and spacing to space content out
-          within the larger container.
-        </p>
-        <p className="lead">
-          <Button color="primary">Learn More</Button>
-        </p>
-      </Jumbotron>
+    <div className="bg">
+      <img className="image" src={fawzi} alt="main pic" />
+      <div className="image-text-box">
+        <p className="image-text">Show The Kids You Care</p>
+        <Button color="primary">Send A Free Letter</Button>{" "}
+      </div>
     </div>
   );
 };

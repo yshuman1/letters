@@ -1,4 +1,23 @@
-.Jumbotron {
-  background-image: url("fawzi.jpg");
-  background-size: 100%;
+.bg {
+  display: flex;
+}
+
+.image {
+  width: 100%;
+}
+.image-text-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  height: 25%;
+  width: 30%;
+  top: 50%;
+  left: 35%;
+}
+.image-text {
+  font-size: 2em;
+}
+.factoid {
+  background-color: black;
+  color: white;
 }
