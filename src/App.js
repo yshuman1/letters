@@ -5,6 +5,8 @@ import "./App.css";
 import Slider from "./components/Slider/Slider";
 import MainPic from "./components/MainPic/MainPic";
 import Factoid from "./components/Factoid/Factoid";
+import Search from "./components/Search/Search";
+import ProfileCard from "./components/ProfileCard/ProfileCard";
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
         <NavBar />
         <MainPic />
         <Factoid />
+        <Search />
+        <ProfileCard />
       </div>
     );
   }

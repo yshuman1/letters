@@ -4,7 +4,10 @@ import "./Factoid.css";
 const Factoid = props => {
   return (
     <div className="factoid">
-      <p> Put Factoids Here</p>
+      <p className="factoid-text">
+        Around 500-700 Palestinian children are arrested, detained and
+        prosecuted in the Israeli military court system each year.
+      </p>
     </div>
   );
 };

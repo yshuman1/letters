@@ -6,18 +6,14 @@
   width: 100%;
 }
 .image-text-box {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   position: absolute;
-  height: 25%;
+  height: 15%;
   width: 30%;
-  top: 50%;
+  top: 45%;
   left: 35%;
 }
 .image-text {
   font-size: 2em;
-}
-.factoid {
-  background-color: black;
-  color: white;
 }

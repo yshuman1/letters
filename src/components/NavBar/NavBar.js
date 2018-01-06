@@ -14,7 +14,8 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
+  Tooltip
 } from "reactstrap";
 
 export default class NavBar extends React.Component {
@@ -35,7 +36,7 @@ export default class NavBar extends React.Component {
     return (
       <Navbar color="dark" fixed="true" light expand="md">
         <NavbarBrand className="logo-color" href="/">
-          We Are With You
+          Free Kids from Military Prisons
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
@@ -44,21 +45,18 @@ export default class NavBar extends React.Component {
               <NavLink href="/components/">Search</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/components/">Learn More</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
                 FAQ
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap">
+                Donate
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
